@@ -28,8 +28,8 @@ namespace ProductReviewManagementLINQ
                 new ProductReview(){ productID = 15, userID = 3, rating = 4, review = "Good", isLike = true },
                 new ProductReview(){ productID = 16, userID = 2, rating = 3, review = "Average", isLike = true },
             };
-            //Management call= new Management();
-            //call.TopRecords(productReviewList);
+            Management call = new Management();
+            call.TopRecords(productReviewList);
         }
     }
 }
